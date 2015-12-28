@@ -1,0 +1,772 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://player.bfi.org.uk/search/?q=girl
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - HTTPClient/1.0 (2.7.1, ruby 2.0.0 (2013-06-27))
+      Accept:
+      - '*/*'
+      Date:
+      - Sun, 10 Jan 2016 19:28:25 GMT
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Sun, 10 Jan 2016 19:28:26 GMT
+      Server:
+      - gunicorn/19.1.1
+      Vary:
+      - Cookie
+      X-Frame-Options:
+      - SAMEORIGIN
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<!--[if lt IE 7]>      <html class=\"no-js lt-ie9
+        lt-ie8 lt-ie7\"> <![endif]-->\n<!--[if IE 7]>         <html class=\"no-js
+        lt-ie9 lt-ie8\"> <![endif]-->\n<!--[if IE 8]>         <html class=\"no-js
+        lt-ie9\"> <![endif]-->\n<!--[if IE 9]>         <html class=\"no-js ie9\">
+        <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\n<head>\n
+        \   <script src=\"//cdn.optimizely.com/js/657360047.js\"></script>\n    <meta
+        charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1.0, maximum-scale=1.0\" />\n\n    <title>Search Results for
+        girl</title>\n    <meta name=\"description\" content=\"Watch films online
+        on-demand or subscribe to BFI Player Plus - you get unlimited streaming of
+        movies. Start your free 30-day trial. No contract.\" />\n\n    <link rel=\"apple-touch-icon-precomposed\"
+        href=\"/static/player/images/icons/favicon-152.png\">\n    <meta name=\"msapplication-TileColor\"
+        content=\"#FFFFFF\">\n    <meta name=\"msapplication-TileImage\" content=\"/static/player/images/icons/favicon-144.png\">\n
+        \   <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->\n
+        \   <link rel=\"apple-touch-icon-precomposed\" sizes=\"152x152\" href=\"/static/player/images/icons/favicon-152.png\">\n
+        \   <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->\n
+        \   <link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"/static/player/images/icons/favicon-144.png\">\n
+        \   <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->\n
+        \   <link rel=\"apple-touch-icon-precomposed\" sizes=\"120x120\" href=\"/static/player/images/icons/favicon-120.png\">\n
+        \   <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->\n
+        \   <link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"/static/player/images/icons/favicon-114.png\">\n
+        \   <!-- For first- and second-generation iPad: -->\n    <link rel=\"apple-touch-icon-precomposed\"
+        sizes=\"72x72\" href=\"/static/player/images/icons/favicon-72.png\">\n    <!--
+        For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->\n    <link
+        rel=\"apple-touch-icon-precomposed\" href=\"/static/player/images/icons/favicon-57.png\">\n
+        \   <link rel=\"icon\" href=\"/static/player/images/icons/favicon-32.png\"
+        sizes=\"32x32\">\n    <link rel=\"icon\" href=\"/static/player/images/icons/favicon-96.png\"
+        sizes=\"96x96\">\n    <link rel=\"icon\" href=\"/static/player/images/icons/favicon-128.png\"
+        sizes=\"128x128\">\n    <link rel=\"icon\" href=\"/static/player/images/icons/favicon-195.png\"
+        sizes=\"195x195\">\n    <link rel=\"icon\" href=\"/static/player/images/icons/favicon-228.png\"
+        sizes=\"228x228\">\n\n\n    <meta property=\"og:title\" content=\"Search Results
+        for girl\" />\n    <meta property=\"og:site_name\" content=\"BFI Player\"
+        />\n    <meta property=\"og:url\" content=\"http://player.bfi.org.uk/search/\"
+        />\n    <meta property=\"og:description\" content=\"Find and watch movies
+        of your area of the UK. See films from the BFI National Archive, Regional
+        and National Archives \" />\n    <meta property=\"og:image\" content=\"http://player.bfi.org.uk/static/player/images/logo-social-1200x630.png\"
+        />\n\n    <meta name=\"twitter:card\" content=\"summary_large_image\">\n    <meta
+        name=\"twitter:site\" content=\"@bfi\">\n    <meta name=\"twitter:creator\"
+        content=\"@bfi\">\n\n    <link rel=\"canonical\" href=\"http://player.bfi.org.uk/search\"
+        />\n\n    <link href='/static/player/dist/styles/css/global.min.css' rel='stylesheet'
+        type='text/css'>\n    \n\n    <script>\n    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n
+        \   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n
+        \   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n
+        \    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');\n
+        \   ga('create', 'UA-44058793-1', 'bfi.org.uk');\n\n    ;\n\n    window.optimizely
+        = window.optimizely || [];\n    window.optimizely.push(\"activateUniversalAnalytics\");\n\n
+        \   ga('require', 'displayfeatures');\n    ga('send', 'pageview');\n    </script>\n
+        \   <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js\"></script>\n
+        \   \n    <script type=\"text/javascript\" src=\"/static/player/dist/scripts/index.js\"></script>\n
+        \   <!--[if lt IE 9]>\n        <script src=\"//html5shiv.googlecode.com/svn/trunk/html5.js\"></script>\n
+        \       <script src=\"/static/player/dist/scripts/libs/selectivizr-min.js\"></script>\n
+        \       <link href='/static/player/dist/styles/css/global-px.min.css' rel='stylesheet'
+        type='text/css'>\n    <![endif]-->\n</head>\n<body  >\n    \n\n\n<div id=\"header-nav\"
+        data-behavior=\"accordion\">\n    <a class=\"toggle nav-link\" title=\"Toggle
+        main navigation\" data-behavior=\"accordion-toggle\">\n        <span class=\"icon
+        icon-hamburger\"></span>\n        <span class=\"icon icon-close\"></span>\n
+        \   </a>\n    <div id=\"logo\">\n        <a href=\"/\" title=\"Home\" class=\"nav-link\"><img
+        class=\"no-svg\" alt=\"Home\" src=\"/static/player/images/logo.png\" /><img
+        class=\"svg\" alt=\"Home\" src=\"/static/player/images/logo.svg\" /></a>\n
+        \   </div>\n    <div id=\"primary-navigation\" data-id=\"primary-navigation\"
+        data-behavior=\"accordion-content\">\n        <nav class=\"nav nav-p1\">\n
+        \           <a href=\"/search\" title=\"Search\" class=\"nav-link has-icon
+        has-icon-right icon-search active search\" data-behavior=\"search-trigger\">\n
+        \               Search\n\n            </a>\n            \n            \n            <a
+        href=\"/bfi-player-plus\" title=\"BFI Player +\" class=\"nav-link \">BFI Player
+        +</a>\n            \n            <a href=\"/new\" title=\"New\" class=\"nav-link
+        \">New</a>\n            \n            <a href=\"/popular\" title=\"Popular\"
+        class=\"nav-link \">Popular</a>\n            \n            <a href=\"/genres\"
+        title=\"Genres\" class=\"nav-link \">Genres</a>\n            \n            <a
+        href=\"/collections\" title=\"Collections\" class=\"nav-link \">Collections</a>\n
+        \           \n            <a href=\"/britain-on-film\" title=\"Britain On
+        Film\" class=\"nav-link \">Britain On Film</a>\n            \n            </a>\n
+        \           <div class=\"account\">\n                \n                \n
+        \                   <a href=\"/sign-in/?next=/search/\" title=\"Sign in\"
+        class=\"btn f1 nav-link has-icon has-icon-right icon-account\">Sign up / in</a>\n
+        \               \n                <a href=\"/help-and-support\" title=\"Help\"
+        class=\"btn f1 nav-link has-icon has-icon-right icon-question  \">Help</a>\n
+        \           </div>\n        </nav>\n    </div>\n</div>\n\n\n<section class=\"search
+        section\" id=\"search-content\" data-behavior=\"search-content\">\n    <form
+        id=\"search-box\" class=\"search-bar\" action=\"/search\">\n        <fieldset>\n
+        \           <div class=\"field no-right-margin\">\n                <label
+        for=\"q\" class=\"hide\">Search</label>\n                <input type=\"text\"
+        id=\"q\" name=\"q\" placeholder=\"Search BFI Player&#8230;\" />\n            </div>\n
+        \           <input type=\"submit\" class=\"btn f1 a2\" name=\"sa\" value=\"Search\"
+        />\n        </fieldset>\n    </form>\n    <span class=\"icon icon-close\"></span>\n</section>\n\n<section
+        id=\"header-bar\" class=\"section \" data-behavior=\"accordion\" data-reveal=\"height\">\n
+        \   <div class=\"header\">\n        <div class=\"content\">\n            <p><span>The
+        British Film Institute presents the best global cinema on-demand:</span><br
+        />From classic and contemporary films to the best of the BFI National Archive.</p>\n
+        \       </div>\n        <a href=\"//www.bfi.org.uk/\" target=\"_blank\" class=\"logo
+        a1\" title=\"BFI\"><img class=\"no-svg\" alt=\"BFI logo\" src=\"/static/player/images/logo-alt.png\"
+        /><img class=\"svg\" alt=\"BFI logo\" src=\"/static/player/images/logo-alt.svg\"/></a>\n
+        \   </div>\n</section>\n\n\n<article class=\"section search two-columns\">\n\t<form
+        id=\"search-box\" class=\"search-bar\">\n\t\t<fieldset>\n\t\t\t<div class=\"field
+        no-right-margin\">\n\t\t\t\t<label for=\"q_id\" class=\"hide\">Search</label>\n\t\t\t\t<input
+        type=\"text\" id=\"q_id\" name=\"q\" autocomplete=\"off\" placeholder=\"Search
+        BFI Player&#8230;\" value=\"girl\" />\n\t\t\t</div>\n\t\t\t<input type=\"submit\"
+        class=\"btn f1 a2\" value=\"Search\" />\n\t\t</fieldset>\n\t</form>\n\t<div
+        id=\"search-content-container\" class=\"search-content\">\n\t\t\n\n\n\n    <div
+        class=\"search-section\">\n        <h1 class=\"page-title\">Your search results
+        for '<span>girl</span>' (59)</h1>\n    </div>\n\n\n\n    <div class=\"search-section\"
+        id=\"search-filter\" data-behavior=\"accordion\">\n        <label class=\"toggle
+        section-title\" for=\"toggle-filters\">\n            <span class=\"text\">Filter
+        By</span><span class=\"icon icon-arrow-down\"></span>\n        </label>\n
+        \       <input id=\"toggle-filters\" type=\"checkbox\" />\n        <div class=\"link-wrapper\"
+        data-behavior=\"accordion-content\" data-toggle-content=\".btn\">\n            \n
+        \           \n                <div class=\"available\">\n                    \n
+        \                       <a href=\"/search/?q=girl&amp;selected_facets=availability%3ABFI+Player+%2B\"
+        class=\"btn f3 a3\">BFI Player + (7)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=availability%3AFree\" class=\"btn
+        f3 a4\">Free (29)</a>\n                    \n                        <a href=\"/search/?q=girl&amp;selected_facets=form%3AFeature\"
+        class=\"btn f3\">Feature (30)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=form%3AShort\" class=\"btn f3\">Short
+        (29)</a>\n                    \n                        <a href=\"/search/?q=girl&amp;selected_facets=collections%3AWerner+Herzog\"
+        class=\"btn f3\">Werner Herzog (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ATeens\" class=\"btn
+        f3\">Teens (1)</a>\n                    \n                        <a href=\"/search/?q=girl&amp;selected_facets=collections%3AStreet+Life\"
+        class=\"btn f3\">Street Life (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ASport\" class=\"btn
+        f3\">Sport (1)</a>\n                    \n                        <a href=\"/search/?q=girl&amp;selected_facets=collections%3ASonic\"
+        class=\"btn f3\">Sonic (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ASex+Box+Set\" class=\"btn
+        f3\">Sex Box Set (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3APlusnet+Bloggers\"
+        class=\"btn f3\">Plusnet Bloggers (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AMelodrama\" class=\"btn
+        f3\">Melodrama (1)</a>\n                    \n                        <a href=\"/search/?q=girl&amp;selected_facets=collections%3AMagazine+and+Review+show\"
+        class=\"btn f3\">Magazine and Review show (1)</a>\n                    \n
+        \                       <a href=\"/search/?q=girl&amp;selected_facets=collections%3ALove\"
+        class=\"btn f3\">Love (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ALondon+Film+Festival+2014\"
+        class=\"btn f3\">London Film Festival 2014 (1)</a>\n                    \n
+        \                       <a href=\"/search/?q=girl&amp;selected_facets=collections%3ALGBT+Best+of+2015\"
+        class=\"btn f3\">LGBT Best of 2015 (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AInside+the+Festival+2014\"
+        class=\"btn f3\">Inside the Festival 2014 (1)</a>\n                    \n
+        \                       <a href=\"/search/?q=girl&amp;selected_facets=collections%3AHorror\"
+        class=\"btn f3\">Horror (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AHome+movie\" class=\"btn
+        f3\">Home movie (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AHalloween\" class=\"btn
+        f3\">Halloween (1)</a>\n                    \n                        <a href=\"/search/?q=girl&amp;selected_facets=collections%3AFrench+Cinema\"
+        class=\"btn f3\">French Cinema (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AFreewheeling\" class=\"btn
+        f3\">Freewheeling (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AFootball+on+Film\"
+        class=\"btn f3\">Football on Film (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AFools+For+Love\"
+        class=\"btn f3\">Fools For Love (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AEdwardians+at+Work\"
+        class=\"btn f3\">Edwardians at Work (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AEdwardians+at+Leisure\"
+        class=\"btn f3\">Edwardians at Leisure (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AEdwardian+Sports\"
+        class=\"btn f3\">Edwardian Sports (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ADocumentary+drama\"
+        class=\"btn f3\">Documentary drama (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ACycling+On+Film\"
+        class=\"btn f3\">Cycling On Film (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ACostume+drama\" class=\"btn
+        f3\">Costume drama (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ACampaigning+film\"
+        class=\"btn f3\">Campaigning film (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ABritish+Independent+Film+Awards\"
+        class=\"btn f3\">British Independent Film Awards (1)</a>\n                    \n
+        \                       <a href=\"/search/?q=girl&amp;selected_facets=collections%3ABeat+Generations\"
+        class=\"btn f3\">Beat Generations (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ABacked+by+BFI\" class=\"btn
+        f3\">Backed by BFI (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AAnimation+%26+Artists+Moving+Image\"
+        class=\"btn f3\">Animation &amp; Artists Moving Image (1)</a>\n                    \n
+        \                       <a href=\"/search/?q=girl&amp;selected_facets=collections%3AAdded+This+Week\"
+        class=\"btn f3\">Added This Week (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3A1914+on+Film+%28TBD%29\"
+        class=\"btn f3\">1914 on Film (TBD) (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3A1914+on+Film\" class=\"btn
+        f3\">1914 on Film (1)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AWTF+-+A+Box+of+Odd\"
+        class=\"btn f3\">WTF - A Box of Odd (2)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AThe+Old+School+Yard\"
+        class=\"btn f3\">The Old School Yard (2)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ASunday+Best\" class=\"btn
+        f3\">Sunday Best (2)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3APopular\" class=\"btn
+        f3\">Popular (2)</a>\n                    \n                        <a href=\"/search/?q=girl&amp;selected_facets=collections%3APOUT+Film+Festival\"
+        class=\"btn f3\">POUT Film Festival (2)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AInside+Film\" class=\"btn
+        f3\">Inside Film (2)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AComedy\" class=\"btn
+        f3\">Comedy (2)</a>\n                    \n                        <a href=\"/search/?q=girl&amp;selected_facets=collections%3ABritain+On+Film+TV\"
+        class=\"btn f3\">Britain On Film TV (2)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ABritain+On+Film\"
+        class=\"btn f3\">Britain On Film (2)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ABFI+Flare%3A+London+LGBT+Film+Festival+Presents\"
+        class=\"btn f3\">BFI Flare: London LGBT Film Festival Presents (2)</a>\n                    \n
+        \                       <a href=\"/search/?q=girl&amp;selected_facets=collections%3ABFI+Flare+presents\"
+        class=\"btn f3\">BFI Flare presents (2)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AThe+Home+Front\"
+        class=\"btn f3\">The Home Front (3)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ARomance\" class=\"btn
+        f3\">Romance (3)</a>\n                    \n                        <a href=\"/search/?q=girl&amp;selected_facets=collections%3ANew\"
+        class=\"btn f3\">New (3)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AFlipside+-+Cult+British+Cinema\"
+        class=\"btn f3\">Flipside - Cult British Cinema (3)</a>\n                    \n
+        \                       <a href=\"/search/?q=girl&amp;selected_facets=collections%3AFestival+Winners+%26+Nominees\"
+        class=\"btn f3\">Festival Winners &amp; Nominees (3)</a>\n                    \n
+        \                       <a href=\"/search/?q=girl&amp;selected_facets=collections%3AFestival+Favourites\"
+        class=\"btn f3\">Festival Favourites (3)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AFestival+Competition\"
+        class=\"btn f3\">Festival Competition (3)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ABest+Films+of+2015\"
+        class=\"btn f3\">Best Films of 2015 (3)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ASex\" class=\"btn
+        f3\">Sex (4)</a>\n                    \n                        <a href=\"/search/?q=girl&amp;selected_facets=collections%3APlusnet+loves+you+back\"
+        class=\"btn f3\">Plusnet loves you back (4)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ABFI+London+Film+Festival+Presents\"
+        class=\"btn f3\">BFI London Film Festival Presents (4)</a>\n                    \n
+        \                       <a href=\"/search/?q=girl&amp;selected_facets=collections%3AThe+Female+Gaze\"
+        class=\"btn f3\">The Female Gaze (5)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ATV+Home\" class=\"btn
+        f3\">TV Home (5)</a>\n                    \n                        <a href=\"/search/?q=girl&amp;selected_facets=collections%3ADocumentary\"
+        class=\"btn f3\">Documentary (6)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ATV+BFI+Player+Plus\"
+        class=\"btn f3\">TV BFI Player Plus (8)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AEdwardian+Britain+on+Film\"
+        class=\"btn f3\">Edwardian Britain on Film (8)</a>\n                    \n
+        \                       <a href=\"/search/?q=girl&amp;selected_facets=collections%3ACult+Cinema\"
+        class=\"btn f3\">Cult Cinema (9)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AAmateur+film\" class=\"btn
+        f3\">Amateur film (10)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ANon-Fiction\" class=\"btn
+        f3\">Non-Fiction (14)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AFlipside\" class=\"btn
+        f3\">Flipside (15)</a>\n                    \n                        <a href=\"/search/?q=girl&amp;selected_facets=collections%3ADrama\"
+        class=\"btn f3\">Drama (16)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3AThe+Pleasure+Girls\"
+        class=\"btn f3\">The Pleasure Girls (18)</a>\n                    \n                        <a
+        href=\"/search/?q=girl&amp;selected_facets=collections%3ACollections\" class=\"btn
+        f3\">Collections (31)</a>\n                    \n                </div>\n
+        \           \n        </div>\n        \n            <div class=\"read-more-toggle\">\n
+        \               <a data-behavior=\"accordion-toggle\"><span class=\"open\">Show
+        less</span><span class=\"closed\">Show more</span></a>\n            </div>\n
+        \       \n    </div>\n\n\n    <div id=\"search-results\" class=\"grid\" data-behavior=\"grid\"
+        data-selector-small=\".film.p3\" data-selector-big=\".film.p2\">\n        \n\n\n
+        \   \n    \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-princess-mary-and-the-babies-topical-budget-756-1-1926/\"
+        title=\"Watch Princess Mary and the Babies \" class=\"image-link\">View Princess
+        Mary and the Babies </a>\n    <figure class=\"film-image middle p3\">\n        \n
+        \           <img src=\"//player.bfi.org.uk//media/images/stills/film/5939/promo259953115-320x180.jpg\"
+        alt=\"Princess Mary and the Babies \" data-src=\"//player.bfi.org.uk//media/images/stills/film/5939/promo259953115.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"princess-mary-and-the-babies-topical-budget-756-1-1926\">\n
+        \            \n                Watch for free \n            \n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Princess Mary and the Babies  </span> <span
+        class=\"film-year\">1926</span>\n            \n        </h3>\n        <p class=\"film-info\"
+        >An Indian nurse and newborn babies greet Princess Mary at the British Hospital
+        For Mothers And Babies in Woolwich.</p>\n        <p class=\"film-info metrics\"
+        >\n            \n            \n            \n                <span>United
+        Kingdom</span>\n            \n            \n        </p>\n    </div>\n</article>\n\n\n
+        \   \n    \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-mitcham-our-athletic-girls-topical-budget-891-1-1928/\"
+        title=\"Watch Mitcham - Our Athletic Girls \" class=\"image-link\">View Mitcham
+        - Our Athletic Girls </a>\n    <figure class=\"film-image middle p3\">\n        \n
+        \           <img src=\"//player.bfi.org.uk//media/images/stills/film/5902/promo259953075-320x180.jpg\"
+        alt=\"Mitcham - Our Athletic Girls \" data-src=\"//player.bfi.org.uk//media/images/stills/film/5902/promo259953075.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"mitcham-our-athletic-girls-topical-budget-891-1-1928\">\n
+        \            \n                Watch for free \n            \n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Mitcham - Our Athletic Girls  </span> <span
+        class=\"film-year\">1928</span>\n            \n        </h3>\n        <p class=\"film-info\"
+        >There are two mighty performances from one of Britain’s first female athletics
+        stars at this meeting in Mitcham.</p>\n        <p class=\"film-info metrics\"
+        >\n            \n            \n            \n                <span>United
+        Kingdom</span>\n            \n            \n        </p>\n    </div>\n</article>\n\n\n
+        \   \n    \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-the-people-at-no-19-1949/\" title=\"Watch
+        The People at No. 19\" class=\"image-link\">View The People at No. 19</a>\n
+        \   <figure class=\"film-image top p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/2145/promo208796917_2-320x180.jpg\"
+        alt=\"The People at No. 19\" data-src=\"//player.bfi.org.uk//media/images/stills/film/2145/promo208796917_2.jpg\"
+        />\n        \n    </figure>\n    <div class=\"badge a2\" data-behavior=\"hover-fade\">The
+        Pleasure Girls</div>\n\n    <div class=\"film-preview\" >\n        <div class=\"btn
+        f2 p2 price has-icon icon-play time-remaining\n          \n            hidden\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"the-people-at-no-19-1949\">\n
+        \           \n            \n                <span class=\"film-duration\">18
+        mins</span>\n            \n        </div>\n        \n        \n\n        <h3
+        class=\"film-title\">\n            <span class=\"title\">The People at No.
+        19 </span> <span class=\"film-year\">1949</span>\n            \n        </h3>\n
+        \       <p class=\"film-info\" >Reported cases of sexually transmitted disease
+        took a sharp rise during and after WWII, as back on the home front people
+        like Joan from number 19 were indulging in extra marital promiscuity ... An
+        archive government warning film.</p>\n        <p class=\"film-info metrics\"
+        >\n            <span>18 mins</span>\n            \n            \n                <span>United
+        Kingdom</span>\n            \n            \n                <span>Director.
+        J.B. Holmes</span>\n            \n        </p>\n    </div>\n</article>\n\n\n
+        \   \n    \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-workpeople-and-girls-leaving-thos-adams-factory-nottingham-1900-1900/\"
+        title=\"Watch Workpeople and Girls Leaving Thos. Adams Factory, Nottingham\"
+        class=\"image-link\">View Workpeople and Girls Leaving Thos. Adams Factory,
+        Nottingham</a>\n    <figure class=\"film-image bottom p3\">\n        \n            <img
+        src=\"//player.bfi.org.uk//media/images/stills/film/702/QCdjB5HwFOTaWQ8X4xMDoxOjA4MTsiGN_2-320x180.jpg\"
+        alt=\"Workpeople and Girls Leaving Thos. Adams Factory, Nottingham\" data-src=\"//player.bfi.org.uk//media/images/stills/film/702/QCdjB5HwFOTaWQ8X4xMDoxOjA4MTsiGN_2.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"workpeople-and-girls-leaving-thos-adams-factory-nottingham-1900-1900\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">1 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Workpeople and Girls Leaving Thos. Adams
+        Factory, Nottingham </span> <span class=\"film-year\">1900</span>\n            \n
+        \       </h3>\n        <p class=\"film-info\" >The hustle and bustle of Edwardian
+        lace-workers heading home after a morning shift.</p>\n        <p class=\"film-info
+        metrics\" >\n            <span>1 mins</span>\n            \n            \n
+        \               <span>United Kingdom</span>\n            \n            \n
+        \       </p>\n    </div>\n</article>\n\n\n    \n    \n    \n\n\n    <article
+        class=\"film p3\" data-behavior=\"hover-target \">\n\n    <a href=\"/film/watch-workpeople-and-girls-on-stoney-street-nottingham-1900-1900/\"
+        title=\"Watch Workpeople and Girls on Stoney Street, Nottingham\" class=\"image-link\">View
+        Workpeople and Girls on Stoney Street, Nottingham</a>\n    <figure class=\"film-image
+        middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/145/promo207598934_2-320x180.jpg\"
+        alt=\"Workpeople and Girls on Stoney Street, Nottingham\" data-src=\"//player.bfi.org.uk//media/images/stills/film/145/promo207598934_2.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"workpeople-and-girls-on-stoney-street-nottingham-1900-1900\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">1 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Workpeople and Girls on Stoney Street, Nottingham
+        </span> <span class=\"film-year\">1900</span>\n            \n        </h3>\n
+        \       <p class=\"film-info\" >Edwardian laceworkers hasten home at dinner
+        time.</p>\n        <p class=\"film-info metrics\" >\n            <span>1 mins</span>\n
+        \           \n            \n                <span>United Kingdom</span>\n
+        \           \n            \n        </p>\n    </div>\n</article>\n\n\n    \n
+        \   \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-schoolchildren-at-dalbeattie-public-school-c1901-1901/\"
+        title=\"Watch Schoolchildren at Dalbeattie Public School\" class=\"image-link\">View
+        Schoolchildren at Dalbeattie Public School</a>\n    <figure class=\"film-image
+        middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/1036/promo210346448_2-320x180.jpg\"
+        alt=\"Schoolchildren at Dalbeattie Public School\" data-src=\"//player.bfi.org.uk//media/images/stills/film/1036/promo210346448_2.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"schoolchildren-at-dalbeattie-public-school-c1901-1901\">\n
+        \            \n                Watch for free \n            \n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Schoolchildren at Dalbeattie Public School
+        </span> <span class=\"film-year\">1901</span>\n            \n        </h3>\n
+        \       <p class=\"film-info\" >Scottish primary schoolchildren parade for
+        the camera in well-regimented groups.</p>\n        <p class=\"film-info metrics\"
+        >\n            \n            \n            \n                <span>United
+        Kingdom</span>\n            \n            \n        </p>\n    </div>\n</article>\n\n\n
+        \   \n    \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-march-past-of-20000-coventry-children-1902-1902/\"
+        title=\"Watch March Past of 20,000 Coventry Children\" class=\"image-link\">View
+        March Past of 20,000 Coventry Children</a>\n    <figure class=\"film-image
+        middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/899/promo210427506_2-320x180.jpg\"
+        alt=\"March Past of 20,000 Coventry Children\" data-src=\"//player.bfi.org.uk//media/images/stills/film/899/promo210427506_2.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"march-past-of-20000-coventry-children-1902-1902\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">2 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">March Past of 20,000 Coventry Children </span>
+        <span class=\"film-year\">1902</span>\n            \n        </h3>\n        <p
+        class=\"film-info\" >The Coronation of Edward VII is celebrated by thousands
+        of Coventry Sunday school children.</p>\n        <p class=\"film-info metrics\"
+        >\n            <span>2 mins</span>\n            \n            \n                <span>United
+        Kingdom</span>\n            \n            \n        </p>\n    </div>\n</article>\n\n\n
+        \   \n    \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-day-school-sports-at-park-avenue-in-bradford-1902-1902/\"
+        title=\"Watch Day School Sports at Park Avenue in Bradford\" class=\"image-link\">View
+        Day School Sports at Park Avenue in Bradford</a>\n    <figure class=\"film-image
+        middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/60/promo210426645_2-320x180.jpg\"
+        alt=\"Day School Sports at Park Avenue in Bradford\" data-src=\"//player.bfi.org.uk//media/images/stills/film/60/promo210426645_2.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"day-school-sports-at-park-avenue-in-bradford-1902-1902\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">2 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Day School Sports at Park Avenue in Bradford
+        </span> <span class=\"film-year\">1902</span>\n            \n        </h3>\n
+        \       <p class=\"film-info\" >Barrels of laughs and sackfuls of fun at a
+        school sports event in Edwardian West Yorkshire.</p>\n        <p class=\"film-info
+        metrics\" >\n            <span>2 mins</span>\n            \n            \n
+        \               <span>United Kingdom</span>\n            \n            \n
+        \       </p>\n    </div>\n</article>\n\n\n    \n    \n    \n\n\n    <article
+        class=\"film p3\" data-behavior=\"hover-target \">\n\n    <a href=\"/film/watch-buxton-well-dressing-1904-1904/\"
+        title=\"Watch Buxton Well Dressing\" class=\"image-link\">View Buxton Well
+        Dressing</a>\n    <figure class=\"film-image middle p3\">\n        \n            <img
+        src=\"//player.bfi.org.uk//media/images/stills/film/619/O0cEsGv5RdudyPNn4xMDoxOjA4MTsiGN_2-320x180.jpg\"
+        alt=\"Buxton Well Dressing\" data-src=\"//player.bfi.org.uk//media/images/stills/film/619/O0cEsGv5RdudyPNn4xMDoxOjA4MTsiGN_2.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"buxton-well-dressing-1904-1904\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">7 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Buxton Well Dressing </span> <span class=\"film-year\">1904</span>\n
+        \           \n        </h3>\n        <p class=\"film-info\" >A lavish bioscope
+        show, maypole dancing and decorated wells in Edwardian Derbyshire.</p>\n        <p
+        class=\"film-info metrics\" >\n            <span>7 mins</span>\n            \n
+        \           \n                <span>United Kingdom</span>\n            \n
+        \           \n        </p>\n    </div>\n</article>\n\n\n    \n    \n    \n\n\n
+        \   <article class=\"film p3\" data-behavior=\"hover-target \">\n\n    <a
+        href=\"/film/watch-calisthenics-c1905-1900/\" title=\"Watch Calisthenics\"
+        class=\"image-link\">View Calisthenics</a>\n    <figure class=\"film-image
+        middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/6/FZUcRHgrY5h1eNdH4xMDoxOjA4MTsiGN_2-320x180.jpg\"
+        alt=\"Calisthenics\" data-src=\"//player.bfi.org.uk//media/images/stills/film/6/FZUcRHgrY5h1eNdH4xMDoxOjA4MTsiGN_2.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"calisthenics-c1905-1900\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">7 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Calisthenics </span> <span class=\"film-year\">1900</span>\n
+        \           \n        </h3>\n        <p class=\"film-info\" >A truly impressive
+        exhibition of calisthenics from two teams of girls - perhaps an early talent
+        contest?</p>\n        <p class=\"film-info metrics\" >\n            <span>7
+        mins</span>\n            \n            \n                <span>United Kingdom</span>\n
+        \           \n            \n        </p>\n    </div>\n</article>\n\n\n    \n
+        \   \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-accrington-catholic-procession-1912-1912/\"
+        title=\"Watch Accrington Catholic Procession \" class=\"image-link\">View
+        Accrington Catholic Procession </a>\n    <figure class=\"film-image middle
+        p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/590/5SPjETdNCPS-ZANX4xMDoxOjA4MTsiGN_2-320x180.jpg\"
+        alt=\"Accrington Catholic Procession \" data-src=\"//player.bfi.org.uk//media/images/stills/film/590/5SPjETdNCPS-ZANX4xMDoxOjA4MTsiGN_2.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"accrington-catholic-procession-1912-1912\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">5 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Accrington Catholic Procession  </span>
+        <span class=\"film-year\">1912</span>\n            \n        </h3>\n        <p
+        class=\"film-info\" >Filmed record of a local parade crammed with detail and
+        charm.</p>\n        <p class=\"film-info metrics\" >\n            <span>5
+        mins</span>\n            \n            \n                <span>United Kingdom</span>\n
+        \           \n            \n        </p>\n    </div>\n</article>\n\n\n    \n
+        \   \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-pontypridd-district-girl-guides-1934-camp-at-merthyr-mawr-1934-1934/\"
+        title=\"Watch Pontypridd &amp; District Girl Guides 1934: Camp at Merthyr
+        Mawr 1934\" class=\"image-link\">View Pontypridd & District Girl Guides 1934:
+        Camp at Merthyr Mawr 1934</a>\n    <figure class=\"film-image middle p3\">\n
+        \       \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/5394/promo259798762-320x180.jpg\"
+        alt=\"Pontypridd &amp; District Girl Guides 1934: Camp at Merthyr Mawr 1934\"
+        data-src=\"//player.bfi.org.uk//media/images/stills/film/5394/promo259798762.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"pontypridd-district-girl-guides-1934-camp-at-merthyr-mawr-1934-1934\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">14 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Pontypridd & District Girl Guides 1934:
+        Camp at Merthyr Mawr 1934 </span> <span class=\"film-year\">1934</span>\n
+        \           \n        </h3>\n        <p class=\"film-info\" >The Girl Guides,
+        in the service of God and the Queen, do their best, whether gathering firewood,
+        boiling a kettle, making food, washing up or playing cricket with a tennis
+        racket. </p>\n        <p class=\"film-info metrics\" >\n            <span>14
+        mins</span>\n            \n            \n                <span>Wales</span>\n
+        \           \n            \n        </p>\n    </div>\n</article>\n\n\n    \n
+        \   \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-winterbourne-girls-school-silver-jubilee-pageant-thornton-heath-1935-1935/\"
+        title=\"Watch Winterbourne Girls School Silver Jubilee Pageant, Thornton Heath\"
+        class=\"image-link\">View Winterbourne Girls School Silver Jubilee Pageant,
+        Thornton Heath</a>\n    <figure class=\"film-image middle p3\">\n        \n
+        \           <img src=\"//player.bfi.org.uk//media/images/stills/film/5456/promo259887374-320x180.jpg\"
+        alt=\"Winterbourne Girls School Silver Jubilee Pageant, Thornton Heath\" data-src=\"//player.bfi.org.uk//media/images/stills/film/5456/promo259887374.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"winterbourne-girls-school-silver-jubilee-pageant-thornton-heath-1935-1935\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">5 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Winterbourne Girls School Silver Jubilee
+        Pageant, Thornton Heath </span> <span class=\"film-year\">1935</span>\n            \n
+        \       </h3>\n        <p class=\"film-info\" >Well-choreographed dancing
+        and marching from the pupils of Winterbourne Girls School in Croydon to celebrate
+        George V’s Silver Jubilee in 1935.</p>\n        <p class=\"film-info metrics\"
+        >\n            <span>5 mins</span>\n            \n            \n                <span>United
+        Kingdom</span>\n            \n            \n        </p>\n    </div>\n</article>\n\n\n
+        \   \n    \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-three-county-guide-rally-pembroke-castle-1939-1939/\"
+        title=\"Watch Three County Guide Rally - Pembroke Castle 1939\" class=\"image-link\">View
+        Three County Guide Rally - Pembroke Castle 1939</a>\n    <figure class=\"film-image
+        middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/5402/promo259799142-320x180.jpg\"
+        alt=\"Three County Guide Rally - Pembroke Castle 1939\" data-src=\"//player.bfi.org.uk//media/images/stills/film/5402/promo259799142.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"three-county-guide-rally-pembroke-castle-1939-1939\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">13 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Three County Guide Rally - Pembroke Castle
+        1939 </span> <span class=\"film-year\">1939</span>\n            \n        </h3>\n
+        \       <p class=\"film-info\" >Guides gathered in Pembroke demonstrate their
+        many and varied skills for The Princess Royal e.g. sewing, semaphore, singing
+        and dancing, First Aid, fires and erecting tents.</p>\n        <p class=\"film-info
+        metrics\" >\n            <span>13 mins</span>\n            \n            \n
+        \               <span>Wales</span>\n            \n            \n        </p>\n
+        \   </div>\n</article>\n\n\n    \n    \n    \n\n\n    <article class=\"film
+        p3\" data-behavior=\"hover-target \">\n\n    <a href=\"/film/watch-scrapbook-194849-1948/\"
+        title=\"Watch Scrapbook 1948/49\" class=\"image-link\">View Scrapbook 1948/49</a>\n
+        \   <figure class=\"film-image middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/4876/promo259434351-320x180.jpg\"
+        alt=\"Scrapbook 1948/49\" data-src=\"//player.bfi.org.uk//media/images/stills/film/4876/promo259434351.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"scrapbook-194849-1948\">\n
+        \            \n                Watch for free \n            \n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Scrapbook 1948/49 </span> <span class=\"film-year\">1948</span>\n
+        \           \n        </h3>\n        <p class=\"film-info\" >On a mission
+        to live up to his name and brighten up the post war days, Reverend Dennis
+        Bringlow commisioned filming of events in the parish to screen to his congregation.</p>\n
+        \       <p class=\"film-info metrics\" >\n            <span>26 mins</span>\n
+        \           \n            \n                <span>United Kingdom</span>\n
+        \           \n            \n        </p>\n    </div>\n</article>\n\n\n    \n
+        \   \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-boulter-family-films-baby-girl-and-father-becontree-1964-1964/\"
+        title=\"Watch Boulter Family Films: Baby Girl And Father, Becontree\" class=\"image-link\">View
+        Boulter Family Films: Baby Girl And Father, Becontree</a>\n    <figure class=\"film-image
+        middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/5480/promo259887141-320x180.jpg\"
+        alt=\"Boulter Family Films: Baby Girl And Father, Becontree\" data-src=\"//player.bfi.org.uk//media/images/stills/film/5480/promo259887141.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"boulter-family-films-baby-girl-and-father-becontree-1964-1964\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">3 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Boulter Family Films: Baby Girl And Father,
+        Becontree </span> <span class=\"film-year\">1964</span>\n            \n        </h3>\n
+        \       <p class=\"film-info\" >A nonplussed baby and besuited smoking dad
+        pose for the cameras in this home movie, shot in the garden and interior of
+        a house on the Becontree estate.</p>\n        <p class=\"film-info metrics\"
+        >\n            <span>3 mins</span>\n            \n            \n                <span>United
+        Kingdom</span>\n            \n            \n        </p>\n    </div>\n</article>\n\n\n
+        \   \n    \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-boulter-family-films-girls-with-toys-in-garden-becontree-1965-1965/\"
+        title=\"Watch Boulter Family Films: Girls With Toys In Garden, Becontree \"
+        class=\"image-link\">View Boulter Family Films: Girls With Toys In Garden,
+        Becontree </a>\n    <figure class=\"film-image middle p3\">\n        \n            <img
+        src=\"//player.bfi.org.uk//media/images/stills/film/5470/promo259887166-320x180.jpg\"
+        alt=\"Boulter Family Films: Girls With Toys In Garden, Becontree \" data-src=\"//player.bfi.org.uk//media/images/stills/film/5470/promo259887166.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"boulter-family-films-girls-with-toys-in-garden-becontree-1965-1965\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">4 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Boulter Family Films: Girls With Toys In
+        Garden, Becontree  </span> <span class=\"film-year\">1965</span>\n            \n
+        \       </h3>\n        <p class=\"film-info\" >Sweet film of Tony Boulter’s
+        wife and two small girls playing up to the camera in his mother’s garden on
+        the Becontree Estate, Dagenham.</p>\n        <p class=\"film-info metrics\"
+        >\n            <span>4 mins</span>\n            \n            \n                <span>United
+        Kingdom</span>\n            \n            \n        </p>\n    </div>\n</article>\n\n\n
+        \   \n    \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-shoreham-peeps-2-1962/\" title=\"Watch Shoreham
+        Peeps 2\" class=\"image-link\">View Shoreham Peeps 2</a>\n    <figure class=\"film-image
+        middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/5121/promo259522163-320x180.jpg\"
+        alt=\"Shoreham Peeps 2\" data-src=\"//player.bfi.org.uk//media/images/stills/film/5121/promo259522163.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"shoreham-peeps-2-1962\">\n
+        \            \n                Watch for free \n            \n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Shoreham Peeps 2 </span> <span class=\"film-year\">1962</span>\n
+        \           \n        </h3>\n        <p class=\"film-info\" >A local epic
+        about Shoreham-by-Sea featuring Girl Guides, a District Nurse, a Summer Fair,
+        more Morris dancers, an airshow, a funeral and a long-haired beatnik.</p>\n
+        \       <p class=\"film-info metrics\" >\n            <span>34 mins</span>\n
+        \           \n            \n                <span>United Kingdom</span>\n
+        \           \n            \n        </p>\n    </div>\n</article>\n\n\n    \n
+        \   \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-4-and-20-fit-girls-1940/\" title=\"Watch
+        4 and 20 Fit Girls\" class=\"image-link\">View 4 and 20 Fit Girls</a>\n    <figure
+        class=\"film-image middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/4365/FZUcRHgrY5h1eNdH4xMDoxOjA4MTsiGN-320x180.jpg\"
+        alt=\"4 and 20 Fit Girls\" data-src=\"//player.bfi.org.uk//media/images/stills/film/4365/FZUcRHgrY5h1eNdH4xMDoxOjA4MTsiGN.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"4-and-20-fit-girls-1940\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">11 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">4 and 20 Fit Girls </span> <span class=\"film-year\">1940</span>\n
+        \           \n        </h3>\n        <p class=\"film-info\" >Flock to your
+        local keep fit class - there's a war on and Britain needs its citizens in
+        tip-top shape. </p>\n        <p class=\"film-info metrics\" >\n            <span>11
+        mins</span>\n            \n            \n                <span>United Kingdom</span>\n
+        \           \n            \n        </p>\n    </div>\n</article>\n\n\n    \n
+        \   \n    \n\n\n    <article class=\"film p3\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-all-the-right-noises-1969/\" title=\"Watch
+        All the Right Noises\" class=\"image-link\">View All the Right Noises</a>\n
+        \   <figure class=\"film-image middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/2157/promo237810097_2-320x180.jpg\"
+        alt=\"All the Right Noises\" data-src=\"//player.bfi.org.uk//media/images/stills/film/2157/promo237810097_2.jpg\"
+        />\n        \n    </figure>\n    <div class=\"badge a2\" data-behavior=\"hover-fade\">The
+        Pleasure Girls</div>\n\n    <div class=\"film-preview\" >\n        <div class=\"btn
+        f2 p2 price has-icon icon-play time-remaining\n          \n            hidden\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"all-the-right-noises-1969\">\n
+        \           \n            \n        </div>\n        \n        \n            \n
+        \               <div class=\"badge \">HD</div>\n            \n        \n\n
+        \       <h3 class=\"film-title\">\n            <span class=\"title\">All the
+        Right Noises </span> <span class=\"film-year\">1969</span>\n            <img
+        class=\"certificate-image\" src=\"/static/player/images/certificate-images/12.png\"
+        alt=\"12\"/>\n        </h3>\n        <p class=\"film-info\" >A taboo-busting
+        drama about a young married man (Tom Bell) who has an affair with a teenage
+        girl (Olivia Hussey). Directed by Gerry O'Hara.</p>\n        <p class=\"film-info
+        metrics\" >\n            <span>91 mins</span>\n            \n            \n
+        \               <span>United Kingdom</span>\n            \n            \n
+        \               <span>Director. Gerry O&#39;Hara</span>\n            \n        </p>\n
+        \   </div>\n</article>\n\n\n    \n    \n    \n\n\n    <article class=\"film
+        p3\" data-behavior=\"hover-target \">\n\n    <a href=\"/film/watch-a-girl-walks-home-alone-at-night-2014/\"
+        title=\"Watch A Girl Walks Home Alone at Night\" class=\"image-link\">View
+        A Girl Walks Home Alone at Night</a>\n    <figure class=\"film-image middle
+        p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/6550/566bfb1745179ef8d50d6a30cea734d9-320x180.jpg\"
+        alt=\"A Girl Walks Home Alone at Night\" data-src=\"//player.bfi.org.uk//media/images/stills/film/6550/566bfb1745179ef8d50d6a30cea734d9.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            hidden\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"a-girl-walks-home-alone-at-night-2014\">\n
+        \           \n            \n        </div>\n        \n        \n            \n
+        \               <div class=\"badge \">HD</div>\n            \n        \n\n
+        \       <h3 class=\"film-title\">\n            <span class=\"title\">A Girl
+        Walks Home Alone at Night </span> <span class=\"film-year\">2014</span>\n
+        \           <img class=\"certificate-image\" src=\"/static/player/images/certificate-images/15.png\"
+        alt=\"15\"/>\n        </h3>\n        <p class=\"film-info\" >If you only see
+        one Iranian vampire western this year, make sure it’s this one. A female vampire
+        stalks a ghost town in Ana Lily Amirpour’s arresting debut.</p>\n        <p
+        class=\"film-info metrics\" >\n            <span>101 mins</span>\n            \n
+        \           \n                <span>USA</span>\n            \n            \n
+        \               <span>Director. Ana Lily Amirpour</span>\n            \n        </p>\n
+        \   </div>\n</article>\n\n\n    \n    \n    \n\n\n    <article class=\"film
+        p3\" data-behavior=\"hover-target \">\n\n    <a href=\"/film/watch-the-new-girlfriend-2014/\"
+        title=\"Watch The New Girlfriend\" class=\"image-link\">View The New Girlfriend</a>\n
+        \   <figure class=\"film-image middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/6686/b782a03caa5f00262071c0546caa8683-320x180.jpg\"
+        alt=\"The New Girlfriend\" data-src=\"//player.bfi.org.uk//media/images/stills/film/6686/b782a03caa5f00262071c0546caa8683.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            hidden\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"the-new-girlfriend-2014\">\n
+        \           \n            \n        </div>\n        \n        \n            \n
+        \               <div class=\"badge \">HD</div>\n            \n        \n\n
+        \       <h3 class=\"film-title\">\n            <span class=\"title\">The New
+        Girlfriend </span> <span class=\"film-year\">2014</span>\n            <img
+        class=\"certificate-image\" src=\"/static/player/images/certificate-images/15.png\"
+        alt=\"15\"/>\n        </h3>\n        <p class=\"film-info\" >Ruth Rendell
+        provides the source novel for this delicious tale of deception and identity,
+        from the master of mischievous melodrama, François Ozon.</p>\n        <p class=\"film-info
+        metrics\" >\n            <span>108 mins</span>\n            \n            \n
+        \               <span>France</span>\n            \n            \n                <span>Director.
+        François Ozon</span>\n            \n        </p>\n    </div>\n</article>\n\n\n
+        \   \n    \n    \n\n\n    <article class=\"film p3 svod\" data-behavior=\"hover-target
+        \">\n\n    <a href=\"/film/watch-anatomy-of-a-pin-up-1971/\" title=\"Watch
+        Anatomy of a Pin-up\" class=\"image-link\">View Anatomy of a Pin-up</a>\n
+        \   <figure class=\"film-image middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/2084/promo218975452_2-320x180.jpg\"
+        alt=\"Anatomy of a Pin-up\" data-src=\"//player.bfi.org.uk//media/images/stills/film/2084/promo218975452_2.jpg\"
+        />\n        \n    </figure>\n    <div class=\"badge a2\" data-behavior=\"hover-fade\">The
+        Pleasure Girls</div>\n\n    <div class=\"film-preview\" >\n        <div class=\"btn
+        f2 p2 price has-icon icon-play time-remaining\n          \n            hidden\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"anatomy-of-a-pin-up-1971\">\n
+        \           \n            \n        </div>\n        \n        \n\n        <h3
+        class=\"film-title\">\n            <span class=\"title\">Anatomy of a Pin-up
+        </span> <span class=\"film-year\">1971</span>\n            <img class=\"certificate-image\"
+        src=\"/static/player/images/certificate-images/15.png\" alt=\"15\"/>\n        </h3>\n
+        \       <p class=\"film-info\" >This documentary explores attitudes to nude
+        modelling in Britain - models, photographers and members of the public express
+        their opinions.</p>\n        <p class=\"film-info metrics\" >\n            <span>31
+        mins</span>\n            \n            \n                <span>United Kingdom</span>\n
+        \           \n            \n                <span>Director. David Cohen</span>\n
+        \           \n        </p>\n    </div>\n</article>\n\n\n    \n    \n    \n\n\n
+        \   <article class=\"film p3\" data-behavior=\"hover-target \">\n\n    <a
+        href=\"/film/watch-film-and-photo-league-international-cooperators-day-1936/\"
+        title=\"Watch Film and Photo League: International Cooperators Day\" class=\"image-link\">View
+        Film and Photo League: International Cooperators Day</a>\n    <figure class=\"film-image
+        middle p3\">\n        \n            <img src=\"//player.bfi.org.uk//media/images/stills/film/6178/promo259259231-320x180.jpg\"
+        alt=\"Film and Photo League: International Cooperators Day\" data-src=\"//player.bfi.org.uk//media/images/stills/film/6178/promo259259231.jpg\"
+        />\n        \n    </figure>\n    \n\n    <div class=\"film-preview\" >\n        <div
+        class=\"btn f2 p2 price has-icon icon-play time-remaining\n          \n            a1\n
+        \         \" data-behavior=\"entitlement\"\n          data-slug=\"film-and-photo-league-international-cooperators-day-1936\">\n
+        \            \n                Watch for free \n            \n            \n
+        \               <span class=\"film-duration\">26 mins</span>\n            \n
+        \       </div>\n        \n        \n\n        <h3 class=\"film-title\">\n
+        \           <span class=\"title\">Film and Photo League: International Cooperators
+        Day </span> <span class=\"film-year\">1936</span>\n            \n        </h3>\n
+        \       <p class=\"film-info\" >It's all fun and games in Willesden, Chingford
+        and Tottenham on International Co-operators' Day.\r\n</p>\n        <p class=\"film-info
+        metrics\" >\n            <span>26 mins</span>\n            \n            \n
+        \               <span>United Kingdom</span>\n            \n            \n
+        \       </p>\n    </div>\n</article>\n\n\n\n    </div>\n\n\n\t</div>\n</article>\n\n\n<footer
+        id=\"footer\" class=\"section\">\n    <div class=\"logo\"><img src=\"/static/player/images/logo.svg\"
+        alt=\"BFI Player\" class=\"svg\" /><img src=\"/static/player/images/logo-grey.png\"
+        alt=\"BFI Player\" class=\"no-svg\" /></div>\n    <div class=\"links\">\n
+        \       <a href=\"/how-it-works/what-is-bfi-player\" title=\"About BFI Player\">About
+        BFI Player</a>\n        <a href=\"/help-and-support/faqs\" title=\"Help &amp;
+        support\">Help &amp; support</a>\n        <a href=\"//www.bfi.org.uk/terms-use\"
+        title=\"Terms &amp; conditions\" target=\"_blank\">Terms &amp; conditions</a>\n
+        \       <a href=\"//www.bfi.org.uk/cookies-privacy\" title=\"Cookies &amp;
+        privacy policy\" target=\"_blank\">Cookies &amp; privacy policy</a>\n        <a
+        href=\"/sitemap\" title=\"Sitemap\">Sitemap</a>\n        <div data-id=\"d420808a7a\"
+        class=\"livechat_button\"><a href=\"#open-live-chat\">Live Chat Support</a></div>\n
+        \   </div>\n    <p>&copy; 2014, British Film Institute. All rights reserved.
+        Registered charity 287780</p>\n</footer>\n<div id=\"cookies\" class=\"section\">\n
+        \   <h2 class=\"title\">Cookies Policy</h2>\n    <p>This website uses cookies,
+        as explained in our <a href=\"//www.bfi.org.uk/cookies-privacy\" title=\"Cookies
+        Policy\" target=\"_blank\">Cookies Policy</a>.</p>\n    <p>To accept the terms
+        and hide this message please click 'I accept'.</p>\n    <a class=\"btn f2\">I
+        accept</a>\n    <span class=\"icon-close\"></span>\n</div>\n<div id=\"bg-shadow\"></div>\n<div
+        id=\"newsletter\" class=\"section\">\n    <h2 class=\"title\">Passionate about
+        film? So are we&hellip;</h2>\n    <p>Don't miss the email made for the in-the-know
+        film fan:</p>\n    <!-- <p class=\"mobile-hide\"> -->\n    <p>\n        <span>New
+        releases &mdash; on the same day as in cinemas</span>\n        <span>Special
+        collections &amp; unheralded classics</span>\n        <span>Exclusive news
+        on discounts</span>\n    </p>\n    <form action=\"//bfi.createsend.com/t/y/s/fjdlti/\"
+        method=\"post\">\n        <div class=\"field\">\n            <label for=\"fieldEmail\"
+        class=\"hide\">Email</label>\n            <input id=\"fieldEmail\" name=\"cm-fjdlti-fjdlti\"
+        type=\"email\" placeholder=\"Email Address\" required />\n        </div>\n
+        \       <input type=\"submit\" class=\"btn f2 submit\" value=\"Sign up\" />\n
+        \       <label for=\"fieldcjhhtt\" class=\"hide\">Source</label><br />\n        <select
+        id=\"fieldcjhhtt\" name=\"cm-fo-cjhhtt\" class=\"hide\">\n            <option
+        value=\"\"></option>\n            <option value=\"853743\">Customer</option>\n
+        \           <option value=\"853744\" selected>Popup</option>\n        </select>\n
+        \   </form>\n    <div class=\"no\">\n        <a class=\"never\" data-ask=\"3652\">Never
+        ask</a> | \n        <a class=\"later\">Ask me later</a>     \n    </div>\n
+        \   <span class=\"icon-close\"></span>\n</div>\n<!-- Google Tag Manager -->\n<noscript><iframe
+        src=\"//www.googletagmanager.com/ns.html?id=GTM-NCFCKQ\" height=\"0\" width=\"0\"
+        style=\"display:none;visibility:hidden\"></iframe></noscript>\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NCFCKQ');\n</script>\n<!--
+        End Google Tag Manager -->\n<script type=\"text/javascript\">\n/* <![CDATA[
+        */\nvar google_conversion_id = 978224038;\nvar google_custom_params = window.google_tag_params;\nvar
+        google_remarketing_only = true;\n/* ]]> */\n</script>\n<script type=\"text/javascript\"
+        src=\"//www.googleadservices.com/pagead/conversion.js\">\n</script>\n<noscript>\n<div
+        style=\"display:inline;\">\n<img height=\"1\" width=\"1\" style=\"border-style:none;\"
+        alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/978224038/?value=0&amp;guid=ON&amp;script=0\"/>\n</div>\n</noscript>\n</body>\n</html>\n\n"
+    http_version: 
+  recorded_at: Sun, 10 Jan 2016 19:28:26 GMT
+recorded_with: VCR 3.0.1
