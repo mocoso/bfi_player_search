@@ -18,6 +18,10 @@ module BFIPlayerSearch
       end
     end
 
+    def free?
+      fragment.css('.price').first.content.include?('free')
+    end
+
     def url
       path = fragment.css('a').first.attributes['href'].to_s.strip
       convert_to_url(path)

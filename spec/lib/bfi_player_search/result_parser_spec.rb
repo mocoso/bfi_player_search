@@ -13,6 +13,7 @@ describe BFIPlayerSearch::ResultParser do
         <img src='//player.bfi.org.uk//media/images/stills/film/6865/0f6237fc6f0a145a72ffa136a7ad88f6-320x180.jpg'>
       </figure>
       <div class='film-preview'>
+        <div class='price'></div>
         <h3 class='film-title'>
           <span class='title'>#{title} </span>
           <span class='film-year'>#{year}</span>
@@ -56,6 +57,26 @@ describe BFIPlayerSearch::ResultParser do
       subject { BFIPlayerSearch::ResultParser.new(fragment) }
 
       it { expect(subject.certificate).to be_nil }
+    end
+  end
+
+  describe '#free?' do
+    it { expect(subject).to_not be_free }
+
+    context 'when free' do
+      let(:fragment) {
+        Nokogiri::HTML::DocumentFragment.parse("<article class='film'>
+          <div class='film-preview'>
+            <div class='price'> Watch for free </div>
+            <h3 class='film-title'>
+            </h3>
+          </div>
+        </article>")
+      }
+
+      subject { BFIPlayerSearch::ResultParser.new(fragment) }
+
+      it { expect(subject).to be_free }
     end
   end
 end

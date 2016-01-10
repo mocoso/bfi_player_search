@@ -13,7 +13,8 @@ module BFIPlayerSearch
           :url => rp.url,
           :image_url => rp.image_url,
           :year => rp.year,
-          :certificate => rp.certificate
+          :certificate => rp.certificate,
+          :free => rp.free?
         }
       end
 
