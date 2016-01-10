@@ -18,4 +18,4 @@ Or with Bundler in your Gemfile.
     results = bfi_search.search('a most wanted man')
     
 Where the results are an array containing a hash for each result. Each
-result has `title`, `url` and `image_url` keys.
+result has `title`, `url` and `image_url`, `year` and `certificate` keys.

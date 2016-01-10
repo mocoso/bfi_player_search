@@ -11,7 +11,9 @@ module BFIPlayerSearch
         {
           :title => rp.title,
           :url => rp.url,
-          :image_url => rp.image_url
+          :image_url => rp.image_url,
+          :year => rp.year,
+          :certificate => rp.certificate
         }
       end
 

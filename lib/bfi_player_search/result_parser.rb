@@ -8,6 +8,16 @@ module BFIPlayerSearch
       fragment.css('span.title').first.content.strip
     end
 
+    def year
+      fragment.css('span.film-year').first.content.strip
+    end
+
+    def certificate
+      if cert_tag = fragment.css('img.certificate-image').first
+        cert_tag.attributes['alt'].to_s.strip
+      end
+    end
+
     def url
       path = fragment.css('a').first.attributes['href'].to_s.strip
       convert_to_url(path)

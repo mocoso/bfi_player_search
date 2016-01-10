@@ -15,6 +15,8 @@ describe BFIPlayerSearch::ResultParser do
       <div class='film-preview'>
         <h3 class='film-title'>
           <span class='title'>#{title} </span>
+          <span class='film-year'>#{year}</span>
+          <img class='certificate-image' alt='#{certificate}'>
         </h3>
       </div>
     </article>")
@@ -32,5 +34,28 @@ describe BFIPlayerSearch::ResultParser do
 
   describe '#image_url' do
     it { expect(subject.image_url).to eq(image_url) }
+  end
+
+  describe '#year' do
+    it { expect(subject.year).to eq(year) }
+  end
+
+  describe '#certificate' do
+    it { expect(subject.certificate).to eq(certificate) }
+
+    context 'without certificate' do
+      let(:fragment) {
+        Nokogiri::HTML::DocumentFragment.parse("<article class='film'>
+          <div class='film-preview'>
+            <h3 class='film-title'>
+            </h3>
+          </div>
+        </article>")
+      }
+
+      subject { BFIPlayerSearch::ResultParser.new(fragment) }
+
+      it { expect(subject.certificate).to be_nil }
+    end
   end
 end
