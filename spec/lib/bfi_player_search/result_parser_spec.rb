@@ -39,6 +39,21 @@ describe BFIPlayerSearch::ResultParser do
 
   describe '#year' do
     it { expect(subject.year).to eq(year) }
+
+    context 'without year' do
+      let(:fragment) {
+        Nokogiri::HTML::DocumentFragment.parse("<article class='film'>
+          <div class='film-preview'>
+            <h3 class='film-title'>
+            </h3>
+          </div>
+        </article>")
+      }
+
+      subject { BFIPlayerSearch::ResultParser.new(fragment) }
+
+      it { expect(subject.year).to be_nil }
+    end
   end
 
   describe '#certificate' do

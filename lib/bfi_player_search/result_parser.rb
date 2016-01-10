@@ -9,7 +9,9 @@ module BFIPlayerSearch
     end
 
     def year
-      fragment.css('span.film-year').first.content.strip
+      if year_tag = fragment.css('span.film-year').first
+        year_tag.content.strip
+      end
     end
 
     def certificate
