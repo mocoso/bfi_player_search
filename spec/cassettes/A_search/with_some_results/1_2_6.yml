@@ -12,7 +12,7 @@ http_interactions:
       Accept:
       - '*/*'
       Date:
-      - Sat, 16 Jan 2016 05:55:15 GMT
+      - Sat, 16 Jan 2016 05:55:17 GMT
   response:
     status:
       code: 200
@@ -21,7 +21,7 @@ http_interactions:
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Sat, 16 Jan 2016 05:55:15 GMT
+      - Sat, 16 Jan 2016 05:55:18 GMT
       Server:
       - gunicorn/19.1.1
       Vary:
@@ -200,5 +200,5 @@ http_interactions:
         style=\"display:inline;\">\n<img height=\"1\" width=\"1\" style=\"border-style:none;\"
         alt=\"\" src=\"//googleads.g.doubleclick.net/pagead/viewthroughconversion/978224038/?value=0&amp;guid=ON&amp;script=0\"/>\n</div>\n</noscript>\n</body>\n</html>\n\n"
     http_version: 
-  recorded_at: Sat, 16 Jan 2016 05:55:16 GMT
+  recorded_at: Sat, 16 Jan 2016 05:55:18 GMT
 recorded_with: VCR 3.0.1
