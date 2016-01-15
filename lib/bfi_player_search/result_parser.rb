@@ -34,6 +34,11 @@ module BFIPlayerSearch
       convert_to_url(path)
     end
 
+    def running_time_in_minutes
+      match = fragment.css('.metrics span').map { |n| %r{(\d+) mins}.match(n.content) }.compact.first
+      match && match[1].to_i
+    end
+
     private
     attr_reader :fragment
 

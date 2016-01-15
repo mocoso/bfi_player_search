@@ -94,4 +94,26 @@ describe BFIPlayerSearch::ResultParser do
       it { expect(subject).to be_free }
     end
   end
+
+  describe '#running_time_in_minutes' do
+    context 'no running time given' do
+      it { expect(subject.running_time_in_minutes).to be_nil }
+    end
+
+    context 'running time given' do
+      let(:fragment) {
+        Nokogiri::HTML::DocumentFragment.parse("<article class='film'>
+          <div class='film-preview'>
+            <p class='film-info metrics'>
+              <span>95 mins</span>
+              <span>United Kingdom</span>
+              <span>Director. Andrew Haigh</span>
+            </p>
+          </div>
+        </article>")
+      }
+
+      it { expect(subject.running_time_in_minutes).to eq(95) }
+    end
+  end
 end

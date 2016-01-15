@@ -14,6 +14,7 @@ describe 'A search' do
     it { expect(subject.first[:image_url]).to match(%r{^http://player.bfi.org.uk//media/images/stills/film/.*\.jpg}) }
     it { expect(subject.first[:free]).to be_falsey }
     it { expect(subject.first[:certificate]).to eq('15') }
+    it { expect(subject.first[:running_time_in_minutes]).to eq(122) }
   end
 
   context 'with unrecognised page format returned' do

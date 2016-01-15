@@ -14,7 +14,8 @@ module BFIPlayerSearch
           :image_url => rp.image_url,
           :year => rp.year,
           :certificate => rp.certificate,
-          :free => rp.free?
+          :free => rp.free?,
+          :running_time_in_minutes => rp.running_time_in_minutes
         }
       end
 
