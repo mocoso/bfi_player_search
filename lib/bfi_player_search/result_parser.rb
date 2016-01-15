@@ -39,6 +39,11 @@ module BFIPlayerSearch
       match && match[1].to_i
     end
 
+    def director
+      match = fragment.css('.metrics span').map { |n| %r{Director\. (.*)\Z}.match(n.content) }.compact.first
+      match && match[1].strip
+    end
+
     private
     attr_reader :fragment
 
