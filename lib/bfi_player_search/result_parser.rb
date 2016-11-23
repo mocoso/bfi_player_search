@@ -48,7 +48,7 @@ module BFIPlayerSearch
     attr_reader :fragment
 
     def convert_to_url(path_or_url)
-      u = URI.parse(path_or_url)
+      u = URI.parse(URI.escape(path_or_url))
       u.host ||= 'player.bfi.org.uk'
       u.scheme ||= 'http'
       u.to_s

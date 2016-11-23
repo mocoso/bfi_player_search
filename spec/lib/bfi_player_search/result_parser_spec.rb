@@ -35,6 +35,19 @@ describe BFIPlayerSearch::ResultParser do
 
   describe '#image_url' do
     it { expect(subject.image_url).to eq(image_url) }
+
+    context 'when it is unescaped' do
+      let(:image_url) { 'http://player.bfi.org.uk//media/images/stills/film/1812/friendships%20flip-320x180.jpg' }
+      let(:fragment) {
+        Nokogiri::HTML::DocumentFragment.parse("<article class='film'>
+          <figure>
+            <img src='//player.bfi.org.uk//media/images/stills/film/1812/friendships flip-320x180.jpg'>
+          </figure>
+        </article>")
+      }
+
+      it { expect(subject.image_url).to eq(image_url) }
+    end
   end
 
   describe '#year' do
